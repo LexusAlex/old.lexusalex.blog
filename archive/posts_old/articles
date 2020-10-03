@@ -1,0 +1,79 @@
+---
+published: false
+---
+
+DDD
+https://5minphp.ru/page/2/
+
+
+
+https://ru.hexlet.io/courses/php-functions/lessons/first-class-citizen/theory_unit
+
+Статьи по linux
+
+blockdev
+udev
+https://itsecforu.ru/2018/11/26/%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-udev-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%83/
+sysfs
+http://mydebianblog.blogspot.com/2013/02/sysfs-linux.html
+
+Сектора и блоки
+
+http://src-code.net/anatomiya-blochnogo-ustrojstva/
+
+Настройка ОС
+https://www.linux16.ru/notes/nastrojka-zhestkix-diskov-cherez-tune2fs-v-linux.html
+
+https://debianinstall.ru/tipy-fajlov-linux/
+https://habr.com/ru/company/flant/blog/354802/
+https://linux-notes.org/kak-ispol-zovat-komandu-fdisk-na-linux/
+https://4admin.info/linux-superblock/
+https://habr.com/ru/company/otus/blog/446614/
+
+https://habr.com/ru/post/462849/
+
+### Сколько реально фаил занимает места на диске
+
+Я создал фаилы разных размеров в файловой системе ext2 с размером блока 1024 байт и в ext4 с блоком 4096 байт.
+Утилиты показывают следующую информацию :
+
+```bash
+du -h /mnt/ext4/file /mnt/ext2/file
+4,0K    /mnt/ext4/file
+1,0K    /mnt/ext2/file
+
+sudo stat /mnt/ext4/files/* /mnt/ext2/files/*
+  Файл: /mnt/ext4/files/1
+  Размер: 1             Блоков: 8          Блок В/В: 4096   обычный файл
+  Файл: /mnt/ext4/files/1024
+  Размер: 1024          Блоков: 8          Блок В/В: 4096   обычный файл
+  Файл: /mnt/ext4/files/4096
+  Размер: 4096          Блоков: 8          Блок В/В: 4096   обычный файл
+  Файл: /mnt/ext4/files/5120
+  Размер: 5120          Блоков: 16         Блок В/В: 4096   обычный файл
+  Файл: /mnt/ext4/files/16384
+  Размер: 16384         Блоков: 32         Блок В/В: 4096   обычный файл
+
+  Файл: /mnt/ext2/files/1
+  Размер: 1             Блоков: 2          Блок В/В: 1024   обычный файл
+  Файл: /mnt/ext2/files/1024
+  Размер: 1024          Блоков: 2          Блок В/В: 1024   обычный файл
+  Файл: /mnt/ext2/files/4096
+  Размер: 4096          Блоков: 8          Блок В/В: 1024   обычный файл
+  Файл: /mnt/ext2/files/5120
+  Размер: 5120          Блоков: 10         Блок В/В: 1024   обычный файл
+  Файл: /mnt/ext2/files/16384
+  Размер: 16384         Блоков: 34         Блок В/В: 1024   обычный файл
+
+
+
+wc -c /mnt/ext4/file /mnt/ext2/file
+1 /mnt/ext4/file
+1 /mnt/ext2/file
+2 итого
+
+
+```
+На физическом уровне размер сектора диска всегда равен 512 байт.
+
+https://ps-group.github.io/compilers/fsm

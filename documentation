@@ -1,0 +1,48 @@
+Быстрая установка стандартного сайта
+
+gem install jekyll
+jekyll new myblog
+cd myblog
+jekyll serve
+
+http://localhost:4000
+
+http://lanyon.getpoole.com/
+
+sudo gem install bundler jekyll
+
+jekyll new .
+
+jekyll new --force .
+bundle exec jekyll serve
+
+Каталоги
+_config.yml - главный конфигурационный фаил
+_drafts/ - черновики, это необубликованные посты без даты a-draft-post.md jekyll serve --drafts
+_includes/ - фраграметы для многократного подключения
+_layouts/ - макеты
+_posts/ - динамический контент в формате YEAR-MONTH-DAY-title
+_data/ - правильно отформатированные данные сайта
+_site/ - собранный сайт
+
+Вводные
+
+layout - макет
+permalink - ссылка
+published - статус поста
+
+docker run -ti --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+
+Образец поста
+
+---
+layout: post
+title: Тестовый пост для тестирования функционала
+permalink: time
+tags: dayAfterDay
+comments: true
+subtitle: Jekyll — генератор статичных сайтов, позволяющий сделать гибкий и легковесный блог или сайт.
+summary: Jekyll — генератор статичных сайтов, позволяющий сделать гибкий и легковесный блог, который можно разместить бесплатно на Github Pages.
+cover_url: "/images/jekyll/jekyll.jpg"
+is_navigate: true
+---

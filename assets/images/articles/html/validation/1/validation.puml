@@ -1,0 +1,15 @@
+@startuml
+storage "Валидация данных" {
+    node "Внешние данные\nHtml форма" as Data1
+    node "Данные прошедшие\nпервичную проверку" as Data2
+    node "Данные конкретной\n сущности" as Data3
+    node "Данные домена" as Data4
+    node "Полностью валидные данные" as Data5
+    Data1 ==> Data2
+    Data2 ==> Data3
+    Data3 ==> Data4
+    Data4 ==> Data5
+}
+
+
+@enduml

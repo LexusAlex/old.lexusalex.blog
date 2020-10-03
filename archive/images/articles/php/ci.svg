@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="214px" preserveAspectRatio="none" style="width:665px;height:214px;" version="1.1" viewBox="0 0 665 214" width="665px" zoomAndPan="magnify"><defs><filter height="300%" id="fienhkwrivvwn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4a65e84059005d12693a083370a06717]
+entity client--><ellipse cx="326" cy="17.5" fill="#FEFECE" filter="url(#fienhkwrivvwn)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M326,25.5 L326,52.5 M313,33.5 L339,33.5 M326,52.5 L313,67.5 M326,52.5 L339,67.5 " fill="none" filter="url(#fienhkwrivvwn)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="303.5" y="85.9951">client</text><!--MD5=[8d471159d074b9f89874860b62352626]
+entity Http--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="50" x="6" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="16" y="189.9951">Http</text><!--MD5=[4d17ebef18975ec1b63c6031f196eef0]
+entity Api--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="43" x="91.5" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="23" x="101.5" y="189.9951">Api</text><!--MD5=[5183cb2edb5cf492c7a53635436e61b6]
+entity Console--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="77" x="169.5" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="179.5" y="189.9951">Console</text><!--MD5=[a888083ffba52829547934601eca9f9d]
+entity Rabbitmq--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="89" x="281.5" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="291.5" y="189.9951">Rabbitmq</text><!--MD5=[03870bf48fdafdf8a3c6589134509b8b]
+entity Android--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="76" x="406" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="416" y="189.9951">Android</text><!--MD5=[366b00a063a6b65b51011aae312960e3]
+entity iOS--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="44" x="517" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="527" y="189.9951">iOS</text><!--MD5=[31021d34eca147fafb8355324c9d51aa]
+entity other--><rect fill="#FFFFFF" filter="url(#fienhkwrivvwn)" height="36.2969" style="stroke: #000000; stroke-width: 3.0;" width="58" x="596" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="606" y="189.9951">other</text><!--MD5=[c51d4f4e674cff5cb0acce47dd9d5135]
+link client to Http--><path d="M303.467,59.384 C273.086,72.746 217.336,97.39 170,119 C133.45,135.686 91.721,155.2718 63.6014,168.5492 " fill="none" id="client-&gt;Http" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="56.0468,172.1192,64.5616,171.4136,61.9981,165.9888,56.0468,172.1192" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="171" y="133.4399">1</text><!--MD5=[b7847266534dca5280912a5d67b77c49]
+link client to Api--><path d="M303.205,63.894 C264.066,88.609 184.18,139.0531 141.453,166.0332 " fill="none" id="client-&gt;Api" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="134.676,170.3125,143.042,168.5777,139.8385,163.5045,134.676,170.3125" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="215" y="133.4399">2</text><!--MD5=[831f6eeb85b60b19e37c47f54fc5b047]
+link client to Console--><path d="M303.248,75.433 C281.608,100.099 249.346,136.8728 228.488,160.6475 " fill="none" id="client-&gt;Console" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="223.185,166.6918,230.7159,162.6563,226.2055,158.6995,223.185,166.6918" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="265" y="133.4399">3</text><!--MD5=[52d95fe0043c601017d1cf90029fcee3]
+link client to Rabbitmq--><path d="M326,89.127 C326,111.6719 326,139.23 326,158.8237 " fill="none" id="client-&gt;Rabbitmq" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="326,166.957,329,158.957,323,158.957,326,166.957" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="327" y="133.4399">4</text><!--MD5=[262ca370ea5a89567591ca64e486eece]
+link client to Android--><path d="M348.752,75.433 C370.392,100.099 402.654,136.8728 423.512,160.6475 " fill="none" id="client-&gt;Android" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="428.815,166.6918,425.7945,158.6995,421.2841,162.6563,428.815,166.6918" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="404" y="133.4399">5</text><!--MD5=[040dd3ee9891daddb444f954dd9504b6]
+link client to iOS--><path d="M348.795,63.894 C387.731,88.48 466.991,138.5297 509.878,165.6108 " fill="none" id="client-&gt;iOS" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="516.689,169.9118,511.5265,163.1038,508.323,168.177,516.689,169.9118" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="466" y="133.4399">6</text><!--MD5=[59307cde0b8362b1b75c51a144f63687]
+link client to other--><path d="M348.659,59.424 C379.214,72.831 435.298,97.525 483,119 C518.971,135.194 559.923,153.9768 588.575,167.1746 " fill="none" id="client-&gt;other" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="595.949,170.5731,589.9392,164.5,587.4278,169.9491,595.949,170.5731" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="Ubuntu" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8" x="524" y="133.4399">7</text><!--MD5=[c44741d7b5223806d6147d1d0a81d526]
+@startuml
+
+actor client
+
+rectangle Http
+rectangle Api
+rectangle Console
+rectangle Rabbitmq
+rectangle Android
+rectangle iOS
+rectangle other
+
+client  - ->> Http : 1
+client  - ->> Api : 2
+client - ->> Console : 3
+client - ->> Rabbitmq : 4
+client - ->> Android : 5
+client - ->> iOS : 6
+client - ->> other : 7
+
+skinparam rectangle {
+    backgroundColor While
+    borderThickness 3
+}
+skinparam component {
+    ArrowFontName Ubuntu
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontStyle bold
+}
+skinparam actor {
+    FontStyle bold
+}
+
+@enduml
+
+PlantUML version 1.2020.09(Sun May 10 13:51:06 MSK 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-b944.20
+Operating System: Linux
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>

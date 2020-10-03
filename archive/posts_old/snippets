@@ -1,0 +1,22 @@
+Php
+
+Получить равнозначную замену цифру на букву
+strtr(count($sort[0]), "123456789", "ABCDEFGHI")
+
+Bash
+
+Сортировка каталогов по размеру
+du -sh /var/www/* | sort -hr
+
+Рекурсивное сжатие изображений
+find /var/www/iblock_parser_comment/ -type f -regex ".*\(jpg\|jpeg\|JPG\|Jpeg\)" -exec jpegoptim -t --max=85 {} \;
+
+Массовое сжатие pdf bash скрипт
+
+#!/bin/bash
+for file in *.pdf; do
+ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="./comp/$file" $file
+done
+
+Убрать файлы из индекса если gitignore не работает
+https://xdan.ru/fajl-gitignore-ne-rabotaet.html

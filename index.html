@@ -1,0 +1,25 @@
+---
+layout: default
+title: Блог lexusalex.ru
+summary: Авторский блог о технологиях и вокруг них.
+---
+
+{% assign postsByYear = paginator.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<div class="stories-block stories-block__4x">
+    <div class="stories-block__header">
+        <div class="year">{{ year.name }}</div>
+    </div>
+    {% for post in year.items %}
+        <a href="{{ post.url }}" class="story story_orientation_vertical h-entry" style="background-image: url('{{ post.cover_url }}');">
+            <span class="ratio-2-3"></span>
+            <span class="story__views">
+                <i class="fas fa-calendar" aria-hidden="true"></i>&nbsp;{% include date.html date=post.date %}
+            </span>
+            <span class="story__info">
+                <span class="story__title">{{ post.title }}</span>
+            </span>
+        </a>
+    {% endfor %}
+</div>
+{% endfor %}

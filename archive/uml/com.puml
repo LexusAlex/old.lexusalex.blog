@@ -1,0 +1,45 @@
+@startuml
+
+node "UI" {
+
+card client
+rectangle HTTP
+rectangle Console
+rectangle Queue
+client -->> HTTP : веб
+client -->> Console
+client -->> Queue
+
+}
+
+node "Application" {
+
+[...]
+[test]
+[HTTP] --> [Password\Change]
+[Console] --> [Password\Change]
+[Queue] --> [Password\Change]
+
+}
+
+node "Domain" {
+
+[Password\Change] --> [User]
+[Password\Change] --> [Email]
+[Password\Change] --> [Id]
+[Password\Change] --> [Status]
+
+}
+
+skinparam component {
+  FontSize 14
+  BackgroundColor<<Apache>> Red
+  BorderColor<<Apache>> #FF6655
+  FontName Courier
+  BorderColor black
+  BackgroundColor gold
+  ArrowFontName Impact
+  ArrowColor #FF6655
+  ArrowFontColor #777777
+}
+@enduml

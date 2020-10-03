@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="simple-headline">
+    <h1>{{ page.title }}</h1>
+    <div class="simple-headline-date dt-published">{% include date.html date=page.date %}</div>
+</div>
+{% if page.cover_url %}
+    <div class="simple-headline-image">
+        <img src="{{ page.cover_url }}" alt="" class="the-cover" data-action="zoom">
+    </div>
+{% endif %}
+<div class="post">
+    {% if page.is_navigate %}
+        <!--<div class="block-text">
+            {% include toc.html html=content %}
+        </div>-->
+    {% endif %}
+    <div class="block-text">
+        {{ content }}
+        <br>
+        {% if page.comments %}
+        <div class="comments">
+            {% include comments.html %}
+        </div>
+        {% endif %}
+    </div>
+</div>

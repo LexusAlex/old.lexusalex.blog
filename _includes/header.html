@@ -1,0 +1,21 @@
+<div class="header">
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="{{ site.baseurl }}/" title="{{ site.title }}" class="menu-link menu-logo">
+                <img src="{{ site.baseurl }}/assets/images/static/85.png" alt="{{ site.title }}" class="menu-img">
+                <span>{{ site.title }}</span>
+            </a>
+        </li>
+        <li class="menu-item "><a href="/about" class="menu-link">Автор</a></li>
+        <li class="menu-item "><a href="/books" class="menu-link">Книги</a></li>
+        <li class="menu-item menu-item__search"><i class="fa fa-search menu-link" aria-hidden="true"></i></li>
+    </ul>
+    <div class="menu-search" style="display: none;">
+        <form action="https://www.google.ru/search?q=site%3Alexusalex.ru+">
+            <input type="hidden" name="domains" value="lexusalex.ru">
+            <input type="hidden" name="sitesearch" value="lexusalex.ru">
+            <input type="text" name="q" class="menu-search__input">
+            <i class="fa fa-search menu-search__icon" aria-hidden="true"></i>
+        </form>
+    </div>
+</div>

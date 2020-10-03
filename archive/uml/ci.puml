@@ -1,0 +1,35 @@
+@startuml
+
+actor client
+
+rectangle Http
+rectangle Api
+rectangle Console
+rectangle Rabbitmq
+rectangle Android
+rectangle iOS
+rectangle other
+
+client  -->> Http : 1
+client  -->> Api : 2
+client -->> Console : 3
+client -->> Rabbitmq : 4
+client -->> Android : 5
+client -->> iOS : 6
+client -->> other : 7
+
+skinparam rectangle {
+    backgroundColor While
+    borderThickness 3
+}
+skinparam component {
+    ArrowFontName Ubuntu
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontStyle bold
+}
+skinparam actor {
+    FontStyle bold
+}
+
+@enduml

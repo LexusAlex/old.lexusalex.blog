@@ -1,0 +1,128 @@
+.header {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    min-width: 320px;
+    font-size: 17px;
+    height: 50px;
+    margin: 0 auto;
+    background: #0c5835;
+    box-shadow: 0 16px 16px -16px rgba(229, 9, 9, 0.1);
+}
+
+.menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1002;
+}
+
+.menu-item {
+    margin: 0;
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    margin-left: 2%;
+    line-height: 43px;
+    vertical-align: top;
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu-link {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 10px;
+    outline-offset: -0.22222em;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: opacity .2s cubic-bezier(0.645,0.045,0.355,1);
+    -moz-transition: opacity .2s cubic-bezier(0.645,0.045,0.355,1);
+    transition: opacity .2s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.menu-img {
+    position: relative;
+    top: -2px;
+    padding: 0 10px;
+    width: 32px;
+    height: 32px;
+    border-radius:50%
+}
+
+.menu-logo {
+    font-size: 18px;
+}
+
+.menu-logo:hover {
+    opacity: 1 !important;
+}
+
+.menu-link:hover
+{
+    opacity: 0.5;
+    -webkit-transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+    -o-transition: opacity 0.2s ease-in;
+    -ms-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+}
+
+.menu-item__search,
+.menu-item__dark {
+    margin-top: 1px;
+    color: #FFF;
+    float: right;
+    background-color: #000;
+    max-width: 300px;
+    min-width: 50px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-item__right {
+    float: right;
+}
+
+.menu-search {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 9px;
+    z-index: 2000;
+    margin-right: 50px;
+}
+
+.menu-search__input {
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.menu-search__icon {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    color: #999;
+}

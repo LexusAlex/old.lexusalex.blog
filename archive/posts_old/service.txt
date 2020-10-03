@@ -1,0 +1,6 @@
+http://httpbin.org/ проверка http запросов
+https://github.com/mailhog/MailHog эмулятор smtp
+https://habr.com/ru/post/137587/ статья про dns
+https://bertal.ru/ проверка http заголовков
+https://github.com/minicli/minicli для консольных утилит
+про nginx https://sheensay.ru/nginx

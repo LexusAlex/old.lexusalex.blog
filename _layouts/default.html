@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <meta name="yandex-verification" content="34b9532704688201" />
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:title" content="{{ site.title }}">
+        <meta property="og:url" content="{{ site.url }}">
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="{{ site.baseurl }}/assets/images/static/85.png">
+        <meta property="og:description" content="{{ site.tagline }}">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="{{ site.url }}">
+        <meta name="twitter:description" content="{{ site.tagline }}">
+        <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/static/128.png">
+        <meta name="twitter:image:src" content="{{ site.baseurl }}/assets/images/static/128.png">
+
+        <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/static/32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/static/64.png" sizes="64x64">
+        <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/static/128.png" sizes="128x128">
+        <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/static/128.png">
+        <link rel="apple-touch-icon" type="image/png" href="{{ site.baseurl }}/assets/images/static/128.png">
+        <link rel="mask-icon" href="{{ site.baseurl }}/assets/images/static/128.png" color="#5954ca">
+
+        <link rel="alternate" type="application/rss+xml" title="Фид" href="{{ site.url }}/feed.xml"/>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i&amp;subset=cyrillic">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/github.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base-styles.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/header.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/content.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adaptive.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/zoom.css">
+    </head>
+    <body>
+        {% include header.html %}
+        <div class="container container_width_1400">
+            {{ content }}
+        </div>
+        <script src="{{ site.baseurl }}/assets/js/fa.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/jquery-3.4.1.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/lodash.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/highlight.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/zoom.js"></script>
+        <script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47811625 = new Ya.Metrika2({ id:47811625, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47811625" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    </body>
+</html>

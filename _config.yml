@@ -1,0 +1,25 @@
+title:  "LexusAlex.ru"
+email:  alexsey_89@bk.ru
+github_link: https://github.com/LexusAlex
+github_name: LexusAlex
+tagline: Авторский блог о технологиях и вокруг них
+
+url:  https://lexusalex.ru
+shorturl: lexusalex.ru
+baseurl:  ""
+
+author: Алексей Шмелев
+permalink: pretty
+timezone: Europe/Moscow
+language: ru
+
+paginate: 10
+future: false
+show_drafts:  false
+
+markdown: kramdown
+highlighter: false
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap

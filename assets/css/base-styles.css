@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    line-height: 1.4;
+    font-family: 'Ubuntu', Helvetica, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #f5f6f8;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.01rem;
+    text-rendering: optimizeSpeed;
+    min-width: 320px;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+}
+
+::selection {
+    background: #b3d4fc;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #117bba;
+}
+
+a:hover {
+    color: #999;
+    transition: color 0.1s;
+}
+
+pre {
+    margin: 0;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="607px" preserveAspectRatio="none" style="width:327px;height:607px;" version="1.1" viewBox="0 0 327 607" width="327px" zoomAndPan="magnify"><defs><filter height="300%" id="f1bucuylic27t8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1eac438fa5918509326366e1aef9b90f]
+cluster Валидация данных--><rect fill="#FFFFFF" filter="url(#f1bucuylic27t8)" height="572" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="294" x="22" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="91" y="43.9951">Валидация данных</text><!--MD5=[b0d36ba55eff0179867f47721414249d]
+entity Data1--><polygon fill="#FEFECE" filter="url(#f1bucuylic27t8)" points="84.5,69,94.5,59,253.5,59,253.5,111.5938,243.5,121.5938,84.5,121.5938,84.5,69" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="243.5" x2="252.5" y1="69" y2="60"/><line style="stroke: #000000; stroke-width: 1.5;" x1="84.5" x2="243.5" y1="69" y2="69"/><line style="stroke: #000000; stroke-width: 1.5;" x1="243.5" x2="243.5" y1="69" y2="121.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="129" x="99.5" y="91.9951">Внешние данные</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="99.5" y="108.292">Html форма</text><!--MD5=[6fe0f7e040561033cf7824d3ffdb2d87]
+entity Data2--><polygon fill="#FEFECE" filter="url(#f1bucuylic27t8)" points="72,192,82,182,266,182,266,234.5938,256,244.5938,72,244.5938,72,192" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="256" x2="265" y1="192" y2="183"/><line style="stroke: #000000; stroke-width: 1.5;" x1="72" x2="256" y1="192" y2="192"/><line style="stroke: #000000; stroke-width: 1.5;" x1="256" x2="256" y1="192" y2="244.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="87" y="214.9951">Данные прошедшие</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="87" y="231.292">первичную проверку</text><!--MD5=[d86ee341becdbcc19088b3a19f5e3324]
+entity Data3--><polygon fill="#FEFECE" filter="url(#f1bucuylic27t8)" points="74.5,315,84.5,305,263.5,305,263.5,357.5938,253.5,367.5938,74.5,367.5938,74.5,315" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="253.5" x2="262.5" y1="315" y2="306"/><line style="stroke: #000000; stroke-width: 1.5;" x1="74.5" x2="253.5" y1="315" y2="315"/><line style="stroke: #000000; stroke-width: 1.5;" x1="253.5" x2="253.5" y1="315" y2="367.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="89.5" y="337.9951">Данные конкретной</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="89.5" y="354.292">сущности</text><!--MD5=[1f6f4bd13ad7d36adb32d5cef5697f1e]
+entity Data4--><polygon fill="#FEFECE" filter="url(#f1bucuylic27t8)" points="89.5,438,99.5,428,248.5,428,248.5,464.2969,238.5,474.2969,89.5,474.2969,89.5,438" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="238.5" x2="247.5" y1="438" y2="429"/><line style="stroke: #000000; stroke-width: 1.5;" x1="89.5" x2="238.5" y1="438" y2="438"/><line style="stroke: #000000; stroke-width: 1.5;" x1="238.5" x2="238.5" y1="438" y2="474.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="104.5" y="460.9951">Данные домена</text><!--MD5=[5ab0be1313dac61b109054f190d505d9]
+entity Data5--><polygon fill="#FEFECE" filter="url(#f1bucuylic27t8)" points="38,544,48,534,300,534,300,570.2969,290,580.2969,38,580.2969,38,544" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="290" x2="299" y1="544" y2="535"/><line style="stroke: #000000; stroke-width: 1.5;" x1="38" x2="290" y1="544" y2="544"/><line style="stroke: #000000; stroke-width: 1.5;" x1="290" x2="290" y1="544" y2="580.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="222" x="53" y="566.9951">Полностью валидные данные</text><!--MD5=[e0945a475dbee7358d930c55ac441566]
+link Data1 to Data2--><path d="M169,122.033 C169,138.656 169,159.318 169,176.696 " fill="none" id="Data1-&gt;Data2" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="169,181.976,173,172.976,169,176.976,165,172.976,169,181.976" style="stroke: #A80036; stroke-width: 2.0;"/><!--MD5=[659f54b118305699583f02c5c07978ee]
+link Data2 to Data3--><path d="M169,245.033 C169,261.656 169,282.318 169,299.696 " fill="none" id="Data2-&gt;Data3" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="169,304.976,173,295.976,169,299.976,165,295.976,169,304.976" style="stroke: #A80036; stroke-width: 2.0;"/><!--MD5=[6d2f389d8623c86f1abd67dcd7264db1]
+link Data3 to Data4--><path d="M169,368.241 C169,385.192 169,406.063 169,422.475 " fill="none" id="Data3-&gt;Data4" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="169,427.858,173,418.858,169,422.858,165,418.858,169,427.858" style="stroke: #A80036; stroke-width: 2.0;"/><!--MD5=[b724cac66039ef415e67a8d67c5c421f]
+link Data4 to Data5--><path d="M169,474.056 C169,490.05 169,511.778 169,528.8418 " fill="none" id="Data4-&gt;Data5" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="169,533.9761,173,524.9761,169,528.9761,165,524.9761,169,533.9761" style="stroke: #A80036; stroke-width: 2.0;"/><!--MD5=[ce9063a0a7d3e57119d7c9e8da516f48]
+@startuml
+storage "Валидация данных" {
+    node "Внешние данные\nHtml форма" as Data1
+    node "Данные прошедшие\nпервичную проверку" as Data2
+    node "Данные конкретной\n сущности" as Data3
+    node "Данные домена" as Data4
+    node "Полностью валидные данные" as Data5
+    Data1 ==> Data2
+    Data2 ==> Data3
+    Data3 ==> Data4
+    Data4 ==> Data5
+}
+
+
+@enduml
+
+PlantUML version 1.2020.09(Sun May 10 13:51:06 MSK 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-b944.31
+Operating System: Linux
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>
